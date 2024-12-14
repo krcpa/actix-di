@@ -1,11 +1,11 @@
 [package]
 name = "actix-di"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["anil <anil.krcp@gmail.com>"]
 description = "A dependency injection system for Actix web applications"
 license = "MIT"
-repository = "https://github.com/yourusername/actix-di"
+repository = "https://github.com/krcpa/actix-di"
 keywords = ["actix-web", "dependency-injection", "di", "web", "services"]
 categories = ["web-programming::http-server", "web-programming"]
 
