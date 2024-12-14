@@ -1,7 +1,6 @@
 # actix-di
 
 [![Crates.io](https://img.shields.io/crates/v/actix-di.svg)](https://crates.io/crates/actix-di)
-[![Documentation](https://docs.rs/actix-di/badge.svg)](https://docs.rs/actix-di)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A type-safe, ergonomic dependency injection system for Actix web applications.
