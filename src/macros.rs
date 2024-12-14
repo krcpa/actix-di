@@ -16,3 +16,21 @@ macro_rules! provide_dependencies {
         }
     };
 }
+
+/// Helper macro for creating modules
+#[macro_export]
+macro_rules! define_module {
+    ($name:ident { $($field:ident: $type:ty),* $(,)? }) => {
+        pub struct $name {
+            $($field: $type,)*
+        }
+
+        impl $name {
+            pub fn new($($field: $type),*) -> Self {
+                Self {
+                    $($field,)*
+                }
+            }
+        }
+    };
+}
