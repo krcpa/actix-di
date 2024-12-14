@@ -3,7 +3,6 @@ pub mod registry;
 pub mod service;
 pub mod state;
 pub mod macros;
-pub mod module;
 
 pub use error::ServiceError;
 pub use registry::ServiceRegistry;
@@ -17,5 +16,4 @@ pub mod prelude {
     pub use crate::service::{Service, DependencyProvider};
     pub use crate::state::AppState;
     pub use crate::macros::*;
-    pub use crate::module::Module;
 }
